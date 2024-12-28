@@ -5,6 +5,7 @@
   "upload": "Subir",
   "download": "Descargar",
   "downloads": "Descarga | Descargas",
+  "add": "Agregar",
   "cancel": "Cancelar",
   "close": "Cerrar",
   "delete": "Eliminar",
@@ -16,10 +17,21 @@
   "name": "Nombre",
   "model": "Modelo",
   "amount": "Cantidad",
-  "comment": "Comentar",
+  "comment": "Commentar",
   "comments": "Comentario | Comentarios",
   "maps": "Mapa | Mapas",
+  "featured": "Destacado",
+  "recent": "Reciente",
   "tos": "Términos de Servicio",
+
+  "difficulty": {
+    "beginner": ["Principiante", "Define la falta de habilidad, cualquiera podría terminarlo. En su mayoría mapas de la vieja escuela."],
+    "intermediate": ["Intermedio", "Requiere conocimientos básicos sobre la física del juego. La mayoría de los mapas entran en esta categoría."],
+    "advanced": ["Avanzado", "Requiere algunas habilidades para terminarlos."],
+    "expert": ["Experto", "Mapas más difíciles, no conocer estos mapas generalmente termina en fallas, se necesita práctica."],
+    "lunatic": ["Lunático", "Requiere conocimientos serios sobre la física del juego, se necesitan muchos intentos para terminarlos una vez."],
+    "impossible": ["Imposible", "Usados mayormente para mapas con errores y trucos complicados."]
+  },
 
   "toasts": {
     "success": "Éxito!",
@@ -60,8 +72,7 @@
       "seeAll": "Ver todo",
       "markAllRead": "Marcar todo como visto",
       "settings": "Configuraciones",
-      "myMaps": "Mis Mapas",
-      "myNotifications": "Mis Notificaciones",
+      "myMaps": "Mis mapas",
       "administration": "Administración",
       "logout": "Cerrar sesión"
     }
@@ -91,21 +102,22 @@
         "suggestion": "Sugerencia:",
         "search": "Buscar",
         "searchMaps": "Buscar mapas",
-        "builtBy": "creados por",
-        "withTag": "con la etiqueta",
+        "builtBy": "creado por",
+        "withTag": "con etiqueta",
         "usingVehicle": "vehículos usados",
         "sortBy": "Ordenar por",
         "mostRecent": "Más reciente",
         "popular": "Popular",
         "top": "Top",
         "mostAwards": "Mejor premiado",
-        "lastUpdated": "Último actualizado",
+        "lastUpdated": "ültimo actualizado",
         "releaseDate": "Fecha de lanzamiento",
         "all": "Todo",
         "thisYear": "Este año",
         "thisMonth": "Este mes",
         "thisWeek": "Esta semana",
-        "today": "Hoy"
+        "today": "Hoy",
+        "filter": "Filtro"
       }
     },
 
@@ -117,6 +129,25 @@
       "memberSince": "Miembro desde",
       "mostRecentMap": "Mapa más reciente",
       "noMaps": "Este usuario no ha lanzado ningún mapa todavía."
+    },
+
+    "account": {
+      "navigation": {
+        "account": "Cuenta",
+        "manage": "Administrar",
+        "profile": "Perfil",
+        "settings": "Configuraciones",
+        "general": "General",
+        "notifications": "Notificaciones",
+        "myNotifications": "Mis notificaciones",
+        "myMaps": "Mis mapas"
+      },
+      "syncWithDiscord": "Sincronizar con Discord?",
+      "username": "Nombre de usuario",
+      "displayName": "Nombre para mostrar",
+      "email": "E-Mail",
+      "lastSynced": "Última sincronización",
+      "linkedAccounts": "Cuentas vinculadas"
     },
 
     "map": {
@@ -134,6 +165,8 @@
         "nothing": "Parece que no tenemos nada para mostrarte",
         "contact": "Puedes contactarnos en {discord} y compartir tus videos / imágenes"
       },
+      "edit": "Editar",
+      "reportIssue": "Reportar problema",
       "notApproved": "Este mapa no ha sido aprovado todavía.",
       "isPrivate": "Este mapa ha sido marcado como privado.",
       "notAvailable": "Este mapa no está disponible para descargar.",
@@ -146,6 +179,28 @@
       "commentsDisabled": "Los comentarios en este mapa han sido desactivados.",
       "addComment": "Agregar comentario...",
       "addReply": "Responder..."
+    },
+
+    "mapEdit": {
+      "title": "Detalles del mapa",
+      "pressEnter": "(Presiona ENTER para agregar)",
+      "lastUpdate": "Última actualización {ago} por {user}",
+      "seoURL": "URL compatible con SEO",
+      "authors": "Autores",
+      "addAuthor": "Agregar autor...",
+      "releaseDate": "Fecha de lanzamiento",
+      "tags": "Etiquetas",
+      "addTag": "Agregar etiqueta...",
+      "description": "Descripción",
+      "difficulty": "Dificultad",
+      "gallery": "Galería",
+      "video": "Video",
+      "visibility": "Visibilidad",
+      "public": ["Público", "Visible para todos"],
+      "private": ["Privado", "Visible para ti, co-autores y personal"],
+      "toggleComments": "Habilitar comentarios",
+      "isFeatured": "Está destacado?",
+      "versions": "Versiones"
     },
 
     "upload": {
